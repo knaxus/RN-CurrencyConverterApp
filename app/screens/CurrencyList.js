@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 import { ListItem, Separator } from '../components/List';
 import currencies from '../data/currencies';
-import { changeBaseCurrency, changeQuoteeCurrency } from '../actions/currencies';
+import { changeBaseCurrency, changeQuoteCurrency } from '../actions/currencies';
 
 const TEMP_CURRENT_CURRENCY = 'CAD';
 
@@ -22,7 +22,7 @@ class CurrencyList extends Component {
       this.props.dispatch(changeBaseCurrency(currency));
     } else if(type === 'quote') {
       // TODO: Dipatch change quote
-      this.props.dispatch(changeQuoteeCurrency(currency));
+      this.props.dispatch(changeQuoteCurrency(currency));
     }
     this.props.navigation.goBack(null);
   };
