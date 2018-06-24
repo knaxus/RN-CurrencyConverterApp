@@ -8,10 +8,13 @@
     "privacy": "public",
     "version": "1.0.0",
     "orientation": "portrait",
-    "primaryColor": "#cccccc",
     "loading": {
-      "icon": "./assets/icons/app.png",
       "hideExponentText": false
+    },
+    "splash": {
+      "image": "./assets/icons/app.png",
+      "backgroundColor": "#4F6D7A",
+      "resizeMode": "contain"
     },
     "packagerOpts": {
       "assetExts": ["ttf", "mp4"]
