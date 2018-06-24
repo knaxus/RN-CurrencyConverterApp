@@ -9,10 +9,10 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "loading": {
-      "hideExponentText": false
+      "hideExponentText": true
     },
     "splash": {
-      "image": "./assets/icons/app.png",
+      "image": "./assets/splash.png",
       "backgroundColor": "#4F6D7A",
       "resizeMode": "contain"
     },
