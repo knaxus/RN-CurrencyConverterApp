@@ -9,8 +9,8 @@ import { CHANGE_CURRENCY_AMOUNT,
 
 const initialState = {
   baseCurrency: 'USD',
-  quoteCurrency: 'GBP',
-  amount: 100,
+  quoteCurrency: 'INR',
+  amount: 10,
   conversions: {},
   error: null,
 };
